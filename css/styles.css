@@ -57,6 +57,7 @@ img {
 
 .container-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .container-header-div {
@@ -65,7 +66,6 @@ img {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  box-shadow: зі значенням 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
 }
 
 .container-link-header {
@@ -104,7 +104,7 @@ img {
 }
 .link-header-logo {
   font-family: var(--title-font);
-  color: var(--button-color);
+  color: var(--brand-color);
   font-size: 18px;
   font-weight: 800;
   letter-spacing: 0.03em;
@@ -412,6 +412,11 @@ ul {
 .container-advantages {
     padding-top: 120px;
 }
+.container-advantages-div {
+  background-color: var(--classic-background-color);
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
 
 .container-list {
   gap: 24px;
@@ -618,7 +623,8 @@ ul {
 
 .container-footer-new {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+  margin-right: 120px;
 }
 
 .container-social-media {
