@@ -578,6 +578,12 @@ ul {
   color: var(--primary-white-color);
   background-color: var(--brand-color);
 }
+.container-portfolio {
+  padding: 120px 0;
+}
+.container-caption-portfolio {
+  margin-bottom: 72px;
+}
 
 /* FOTTER */
 
