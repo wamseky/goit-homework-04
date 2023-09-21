@@ -247,30 +247,6 @@ transform: translate(-50%, -50%);
 }
 
 
-
-.overlay {
-  padding: 40px 32px 164px 32px;
-  background-color: var(--button-color);
-  color: var(--classic-background-color);
-  font-family: var(--primary-font);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transform: translateY(100%);
-  transition: transform 250ms ease-in-out;
-
-}
-.box:hover .overlay {
-  transform: translateY(0);
-}
-.box {
-  overflow: hidden;
-  position: relative;
-}
-
-
 .container-icon-section {
   padding-bottom: 120px;
   padding-top: 120px;
@@ -511,7 +487,27 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
+.overlay {
+  padding: 40px 32px 164px 32px;
+  background-color: var(--button-color);
+  color: var(--classic-background-color);
+  font-family: var(--primary-font);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 250ms ease-in-out;
 
+}
+.container-img-portfolio:hover .overlay {
+  transform: translateY(0);
+}
+.box {
+  overflow: hidden;
+  position: relative;
+}
 .heading {
   color: var(--primary-white-color);
   font-size: 56px;
