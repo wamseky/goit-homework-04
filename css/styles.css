@@ -249,10 +249,10 @@ transform: translate(-50%, -50%);
 
 
 
-.box:hover .overlay {
+.overlay:hover {
   transform: translateY(0);
 }
-.box {
+.overlay {
   overflow: hidden;
   position: relative;
 
