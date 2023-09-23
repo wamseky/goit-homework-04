@@ -89,6 +89,7 @@ img {
 
 .container-link-header-logo {
   margin-right: 76px;
+  color: var(--brand-color);
 }
 
 .container-address {
