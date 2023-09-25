@@ -650,12 +650,15 @@ background-color: var(--brand-color);
   line-height: 1.5;
   margin-bottom: 16px;
 }
-.container-svg-footer:hover {
-  background-color: #31d0aa;
-}
-.container-svg-footer:focus {
-  background-color: #31d0aa;
-}
 .container-svg-footer {
+  gap: 16px;
+}
+.svg-footer:hover {
+  background-color: #31d0aa;
+}
+.svg-footer:focus {
+  background-color: #31d0aa;
+}
+.svg-footer {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
