@@ -375,6 +375,7 @@ background-color: var(--brand-color);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .container-slogan-text {
