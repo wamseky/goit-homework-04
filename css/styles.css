@@ -129,11 +129,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.current {
-    color: var(--brand-color);
-    position: relative;
-}
-
 .current::after {
     position: absolute;
     content: "";
@@ -163,6 +158,10 @@ img {
   padding: 24px 0;
   position: relative; 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.current.list-header {
+  color: var(--brand-color);
+  position: relative;
 }
 
 .list-header:hover {
@@ -649,9 +648,6 @@ background-color: var(--brand-color);
   padding-bottom: 16px;
   line-height: 1.5;
   margin-bottom: 16px;
-}
-.container-svg {
-  gap: 16px;
 }
 .container-svg-footer:hover {
   background-color: #31d0aa;
